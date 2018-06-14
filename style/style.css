@@ -18,3 +18,23 @@
 	width: 250px;
 	height: 200px;
 }
+.slick-carousel {
+	margin: 0 auto;
+	width: 500px;
+}
+	/***************************/
+	/* The width of each slide */
+	/***************************/
+.slick-slide {
+  width: 350px;
+}
+	/***********************/
+	/* Color of the arrows */
+	/***********************/
+.slick-next::before, .slick-prev::before {
+  color: red;
+}
+.slick-carousel img {
+	width: 250px;
+	height: 200px;
+}
